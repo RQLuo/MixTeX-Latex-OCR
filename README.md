@@ -2,6 +2,8 @@
 
 MixTeX is an innovative multimodal LaTeX recognition mini-program, independently developed by our team. It performs efficient CPU-based inference in a local offline environment. Whether it's LaTeX formulas, tables, or mixed text, MixTeX can easily recognize them all, supporting both Chinese and English processing. Thanks to powerful technical support and optimized design, MixTeX can run efficiently without GPU resources, suitable for any Windows computer, greatly facilitating user experience.
 
+![](demo/icon.png)
+
 ## Key Features
 
 - **LaTeX Formula Recognition**: Accurately recognizes complex LaTeX mathematical formulas, ensuring mathematical expression accuracy.
