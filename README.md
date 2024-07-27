@@ -1,8 +1,13 @@
+![](demo/icon.png)
 # MixTeX - Multimodal LaTeX OCR with Local Offline CPU Inference
+[![Paper](https://img.shields.io/badge/Paper-arxiv.2406.17148-white)](https://arxiv.org/abs/2406.17148) <a href="https://colab.research.google.com/github/RQLuo/MixTeX/blob/main/MixTex_Demo.ipynb" target="_parent"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/></a>[![Hugging Face Spaces](https://img.shields.io/badge/🤗%20Hugging%20Face-Community%20Space-blue)](https://huggingface.co/MixTex/ZhEn-Latex-OCR)
 
 MixTeX is an innovative multimodal LaTeX recognition mini-program, independently developed by our team. It performs efficient CPU-based inference in a local offline environment. Whether it's LaTeX formulas, tables, or mixed text, MixTeX can easily recognize them all, supporting both Chinese and English processing. Thanks to powerful technical support and optimized design, MixTeX can run efficiently without GPU resources, suitable for any Windows computer, greatly facilitating user experience.
 
-![](demo/icon.png)
+# Open Source
+HuggingFace
+
+
 
 ## Key Features
 
@@ -37,7 +42,7 @@ MixTeX excels in recognizing complex text, with particularly good performance in
 
 ![](demo/2.png)
 
-
+<iframe src="//player.bilibili.com/player.html?isOutside=true&aid=1506497499&bvid=BV1hS42197Vp&cid=1628953055&p=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"></iframe>
 
 ## Environment Requirements
 
