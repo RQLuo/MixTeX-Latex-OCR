@@ -29,6 +29,12 @@ As a permanently free software, MixTeX promises continuous optimization while ma
 
 MixTeX excels in recognizing complex text, with particularly good performance in English recognition and comparable results for Chinese. The following image demonstrates MixTeX's recognition capabilities for complex text: (Recommended Image size: 400 x 500)
 
+![](demo/1.gif)
+
+![](demo/3.png)
+
+![](demo/2.png)
+
 
 
 ## Environment Requirements
