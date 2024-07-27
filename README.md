@@ -1,5 +1,5 @@
 ![](demo/icon.png)
-# MixTeX - Multimodal LaTeX OCR with Local Offline CPU Inference
+# MixTeX - Multimodal LaTeX OCR with CPU Inference
 [![Paper](https://img.shields.io/badge/Paper-arxiv.2406.17148-white)](https://arxiv.org/abs/2406.17148) 
 <a href="https://colab.research.google.com/github/RQLuo/MixTeX/blob/main/MixTex_Demo.ipynb" target="_parent"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/></a>
 [![Hugging Face Spaces](https://img.shields.io/badge/🤗%20Hugging%20Face-Community%20Space-blue)](https://huggingface.co/MixTex/ZhEn-Latex-OCR)
