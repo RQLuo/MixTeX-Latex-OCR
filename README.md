@@ -52,10 +52,13 @@ MixTeX uses LaTeX environment for code conversion. We recommend the following La
 \usepackage{color}
 ```
 
-## Important Note
+## Changelog
 
-During use, you may encounter the following warning message: `Error during OCR: Invalid image type. Expected either PIL.Image.Image, numpy.ndarray, torch.Tensor, tf.Tensor or jax.ndarray, but got <class 'list'>.` This is caused by a file type recognition issue and is normal. It will not affect the software's normal operation. You can safely ignore this warning.
-Thank you for providing that additional information. Here's an English translation of the limitations section, which we can add to the promotional document:
+~~During usage, you may encounter the following warning message: `Error during OCR: Invalid image type. Expected either PIL.Image.Image, numpy.ndarray, torch.Tensor, tf.Tensor or jax.ndarray, but got <class 'list'>.`~~
+v1.0.1 [Resolved] **Critical**: Unable to copy files while running the software, and copying files caused warnings.
+
+~~Consistent warning message: `Error during OCR: Unable to infer channel dimension format.`~~
+v1.0.2 [Resolved] **Extreme**: Some users' monitors are too advanced, with non-RGB colors, causing the software to be unusable.
 
 ## Limitations
 
