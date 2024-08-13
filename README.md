@@ -62,7 +62,7 @@ v1.0.1 [Resolved] **Critical**: Unable to copy files while running the software,
 
 v1.0.2 [Resolved] **Extreme**: Some users' monitors are too advanced, with non-RGB colors, causing the software to be unusable.
 
-v1.1.2 [Optimization] Added data collection function, fine-tuned 300 real small samples, optimized curly bracket and table recognition.
+v1.1.2 [Optimization] Added data collection function, fine-tuned 300 real small samples, optimized curly bracket and table recognition. More tables and formulas have been added for pre-training, including the formulas provided by @github.com/ZLab511
 
 v2.1.2 [Upgrade] Synthesized handwriting dataset, fine-tuned 100 real manuscripts, retrained the model, and partially supported handwritten text mixed formula.
 
