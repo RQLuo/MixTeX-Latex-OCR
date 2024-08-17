@@ -183,7 +183,7 @@ class MixTeXApp:
             tokenizer = AutoTokenizer.from_pretrained(path)
             feature_extractor = AutoImageProcessor.from_pretrained(path)
             encoder_session = ort.InferenceSession(f"{path}/encoder_model.onnx")
-            decoder_session = ort.InferenceSession(f"{path}/decoder_model_merged.onnx")
+            decoder_session = ort.InferenceSession(f"{path}/decoder_model.onnx")
             self.log('\n===成功加载模型===\n')
         except Exception as e:
             self.log(f"Error loading models or tokenizer: {e}")
