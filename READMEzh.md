@@ -71,3 +71,6 @@ v1.0.2【已解决】**极端**：个别用户显示器太高级，色彩不是R
 ## 结语
 
 MixTeX 致力于为用户提供最便捷、高效的多模态 LaTeX 识别工具，期待您的使用和反馈。如果您对 MixTeX 有任何建议或遇到问题，欢迎随时与我们联系。让我们一起努力，打造最优质的 LaTeX 识别工具！
+
+![image](https://github.com/user-attachments/assets/4981867a-8d6f-4583-b7ab-a95a10ca71ca)
+
