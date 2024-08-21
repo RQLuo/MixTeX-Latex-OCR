@@ -5,6 +5,8 @@
 [![Hugging Face Spaces](https://img.shields.io/badge/🤗%20Hugging%20Face-Community%20Space-blue)](https://huggingface.co/MixTex/ZhEn-Latex-OCR)
 [![Demo Video](https://img.shields.io/badge/📺%20Demo-Video%20-white)](https://www.youtube.com/watch?v=PqQdQ5xT-vk)
 
+## Online Demo: https://mineai.top/
+
 MixTeX is an innovative multimodal LaTeX recognition mini-program, independently developed by our team. It performs efficient CPU-based inference in a local offline environment. Whether it's LaTeX formulas, tables, or mixed text, MixTeX can easily recognize them all, supporting both Chinese and English processing. Thanks to powerful technical support and optimized design, MixTeX can run efficiently without GPU resources, suitable for any Windows computer, greatly facilitating user experience.
 ![ee94ff1cdf2949b292c6c8ea945a738](https://github.com/user-attachments/assets/a669a704-c523-49a2-8110-6f8bbdd5b4f9)
 
