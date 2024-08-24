@@ -85,3 +85,6 @@ We appreciate your understanding as we continue to develop and refine MixTeX. Yo
 ## Conclusion
 
 MixTeX is committed to providing users with the most convenient and efficient multimodal LaTeX recognition tool. We look forward to your use and feedback. If you have any suggestions or encounter any issues with MixTeX, please feel free to contact us. Let's work together to create the best LaTeX recognition tool!
+
+![donate](https://github.com/user-attachments/assets/9f52a771-ab84-466c-9a7e-629060e251cc)
+
