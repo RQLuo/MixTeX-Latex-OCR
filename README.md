@@ -68,7 +68,10 @@ v1.0.2 [Resolved] **Extreme**: Some users' monitors are too advanced, with non-R
 v1.1.2 [Optimization] Added data collection function, fine-tuned 300 real small samples, optimized curly bracket and table recognition. More tables and formulas have been added for pre-training, including the formulas provided by @github.com/ZLab511
 
 v2.1.2 [Upgrade] Synthesized handwriting dataset, fine-tuned 100 real manuscripts, retrained the model, and partially supported handwritten text mixed formula.
+
 v2.2.3 [Upgrade] Fine-tuned 150 real manuscripts + 300, and supported handwritten text mixed formula and black background.
+
+v3.2.4 [Upgrade] Fine-tuned 500 real, and supported multiple choice questions ocr, In terms of software, we support pressing F2 after clicking the icon to pause recognition, and pressing F2 again to start recognition. Improved the escaping of multi-line formulas and in-text formulas into $$ wrappers, and improved data collection.
 
 ## Limitations
 
