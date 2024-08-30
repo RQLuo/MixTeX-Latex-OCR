@@ -10,6 +10,15 @@
 MixTeX is an innovative multimodal LaTeX recognition mini-program, independently developed by our team. It performs efficient CPU-based inference in a local offline environment. Whether it's LaTeX formulas, tables, or mixed text, MixTeX can easily recognize them all, supporting both Chinese and English processing. Thanks to powerful technical support and optimized design, MixTeX can run efficiently without GPU resources, suitable for any Windows computer, greatly facilitating user experience.
 ![ee94ff1cdf2949b292c6c8ea945a738](https://github.com/user-attachments/assets/a669a704-c523-49a2-8110-6f8bbdd5b4f9)
 
+## Source code setup:
+*Make sure that you have read the user agreement before starting.*
+
+1. Navigate to the `mixtexgui` directory: `cd mixtexgui`
+2. Create a new Conda environment: `conda create -n mixtex python=3.10.14`
+3. Run `pip install -r requirements.txt`
+4. Activate the environment: `conda activate mixtex`
+5. Build the application with PyInstaller: `pyinstaller mixtex_ui.spec`
+
 ## Key Features
 
 - **LaTeX Formula Recognition**: Accurately recognizes complex LaTeX mathematical formulas, ensuring mathematical expression accuracy.
