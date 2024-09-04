@@ -85,7 +85,8 @@ class MixTeXApp:
         self.ocr_thread.start()
 
         self.donate_window = None
-        self.root.bind("<F2>", self.toggle_ocr)
+
+        self.is_only_parse_when_show = False
 
     def start_move(self, event):
         self.x = event.x
@@ -162,11 +163,15 @@ class MixTeXApp:
         self.tray_icon.stop()
         self.root.quit()
 
+    def only_parse_when_show(self):
+        self.is_only_parse_when_show = not self.is_only_parse_when_show
     def create_tray_icon(self):
         menu = pystray.Menu(
             item('显示', self.show_window),
+            item("开关只在最大化启用", self.only_parse_when_show),
             item('退出', self.quit)
         )
+
         self.tray_icon = pystray.Icon("MixTeX", self.icon, "MixTeX", menu)
         threading.Thread(target=self.tray_icon.run, daemon=True).start()
 
@@ -328,7 +333,7 @@ class MixTeXApp:
 
     def ocr_loop(self):
         while True:
-            if not self.ocr_paused:
+            if not self.ocr_paused and (self.tray_icon.visible or not self.is_only_parse_when_show):
                 try:
                     image = ImageGrab.grabclipboard()
                     if image is not None and type(image) != list:
