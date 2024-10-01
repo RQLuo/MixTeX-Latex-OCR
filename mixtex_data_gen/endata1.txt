@@ -1,0 +1,267 @@
+Introduction What do we index?
+MEDLINE indexers describe the content of biomedical articles by assigning subject terms to them. These subject terms are selected from the controlled vocabulary, Medical Subject Headings (MeSH). The MeSH terms assigned to an article appear on the bibliographic citation in PUBMED. They can be used in PUBMED searches and retrieval .
+The MeSH controlled vocabulary, developed at NLM, contains over 27,000 terms covering life sciences, medicine, as well as many other areas. MeSH vocabulary reflects the progress in biomedical sciences. Every year, several hundred new terms are added to the MeSH vocabulary, and some existing terms are modified. In addition to the MeSH descriptors, MEDLINE indexers also use 79 topical subheadings or qualifiers.
+A typical MeSH record (for MYOCARDIAL INFARCTION) is displayed below.
+A detailed explanation of MeSH records will follow later in this course.
+It is important to understand that ONLY terms listed in the MeSH vocabulary can be used for indexing. For example, an article about myocardial infarction is indexed with a single MeSH term MYOCARDIAL INFARCTION. However, an article about Mauriac syndrome cannot be indexed with the exact term, because Mauriac syndrome is not listed in the MeSH vocabulary. The indexer would need to find the closest MeSH term(s), which best describe this syndrome. It may be necessary to consult the Dorlands Medical Dictionary or another source.
+Last Reviewed January 17, 2020
+I have the honour of making this intervention on behalf of Denmark, Finland, Iceland, Norway and Sweden.
+Gender equality is sometimes perceived to be a soft optional extra A womens issue to be treated in separation from other more pressing and strategic concerns.
+It is not.
+Evidence shows that gender equality and empowerment of women are among the most effective ways of achieving sustainable peace and economic development.
+Gender equality is both the smart thing and the right thing to do.
+The human rights of women are indivisible.
+To attain gender equality, womens increased participation and influence in political, economic and social decisionmaking is fundamental.
+Gender based and sexual violence remains a very real obstacle to womens empowerment. Domestic violence is not a private issue  but a block to societal development.
+The way to fully integrate a gender perspective  in the work of the UN and of the Human Rights Council  is to become detailed and operational.
+The Nordic countries believe there is a need for appointing more women as Special Rapporteurs and Independent Experts. We call for gender informed mandates and terms of reference. Reporting and analysis will be strengthened by disaggregation by gender. Where you get information from is key. Women as rights holders need to be systematically consulted. To track progress on, for instance, womens right to own property, to inherit, and to decent paid jobs  we also need monitoring and evaluation. In this Council we should aim to have at least one representative of the underrepresented sex as speaker in panel discussions and events.
+The Human Rights Council and its Special Procedures cannot be treated in isolation.
+The entire UN system needs to intensify its efforts on gender equality. Men need to actively participate.
+For this to happen, training on gender should be mandatory for all UN staff, including specialized training for senior management. UN leaders and managers in the field should be required to meet with women's groups and civil society regularly and within the first weeks of their posting.
+Ultimately, gender equality means freedom for women and men. Because it allows the overall fulfillment of human potential  beyond restricted and predetermined social roles.
+I thank you, Mr. President.
+Innovative Solutions To Challenges Around Sustainable Food System, Production And Supply
+Likhu 2, Nuwakot
+Nepal has 30 lakhs hectares of fertile land. 3.8 million families are engaged in agriculture. Still we rely on food imports. Nepal imported agricultural goods worth more than Rs.220 billion last fiscal year. With the breakdown in supply chain, and increasing reliance on import, prices of daily essentials have already begun to rise in the market. Nepal imported vegetables worth Rs.4 billion during the period of lockdown. Meanwhile food produced by farmers in other parts of Nepal is becoming waste. Tons of vegetables are being dumped. Disruption in the supply of farming inputs like fertilizers, seeds etc. are certain to impact food production.
+Private control on market system of agricultural products might be the one of the reason behind the import of tons of vegetables from foreign countries and dumping of local products. Those people who work to collect vegetables from farmers and supply it to consumers, so called vegetable suppliers get more profit by buying vegetables from foreign countries than by buying from local level. Due to expensive farm inputs, cost of productions is higher in Nepal. As a result price of vegetables farmers seek is higher. But for the same goods suppliers get it in lower price if they buy from foreign countries. So suppliers prefer import to local products. Its quite hard to find a person who think about public welfare than own benefits. Therefore private control over the supply of vegetables might be the root reason behind this scenario .
+Establishment of governmental market of vegetables will ultimately reduce the current situation and local vegetables will get better market. But for the sustainable food system, productions and supply, this governmental market will not be enough. Better and effective strategies for the development of agriculture sector is foremost. Government should take part in two way task supplying necessary inputs to farmers in affordable cost and collecting their products in reasonable price.
+In addition to this establishment of cold store or store house for vegetables is essential for better management of collected products. Storing of vegetables during surplus condition in cold store will helps to reduce the vegetables dumping due to lower demand and each production made by farmer will get reasonable price. This will attract more number of people in the sector of agriculture. And ultimately it directly aid to make national economy strong.
+Furthermore concept of green house farming, organic farming , hydroponics ,urban farming, etc., introduction of modern machinery, tools  equipment, perform effective management practices such as mulching, drip irrigation, staking, etc. are needed to build up by government of Nepal.
+According to forest researcher Dr Sven Wunder, forest environmental services and conservation areas are generally divided into four categories carbon sequestration and storage, biodiversity protection, watershed protection, and landscape beauty.
+In terms of its landscape beauty, the Kehje Sewen Ecosystem Restoration Forest in East Kalimantan is way up there. It is one of our release forests, and throughout it, we have established several transects to use as orangutan patrol routes.
+Our teams hike along these transects almost every day to conduct orangutan patrols and phenology surveys and carry out security patrols to protect the forest from the threat of fire, encroachment, and poaching.
+Usually, our technicians and vets explore the forest on foot. Not all of these transects are accessible by fourwheeldrive vehicles, although we have occasionally used them to reach several points not too far from camp. As mentioned frequently in previous stories, the Kehje Sewen terrain comprises many hills and valleys, which makes it very challenging to explore. However, we also utilize the river as a means of transportation to reach certain forest areas.
+There are several transects which, due to their difficult terrain, are rarely used. One of them is Transect 39, which runs 1.6 kilometres, with a 525meter elevation difference between its lowest and highest points. Along the transect, our team members must work hard to climb a very steep incline continuously.
+The last time our team visited this transect was in February 2019. However, recently, a team made up of Veterinarian Patrick Flagellata and monitoring technicians Yunus and Kris returned to the transect.
+Due to infrequent traffic, the transect trail was overgrown with vegetation, forcing our team to stop and slash the wild plants and vines to pass through. Along the transect, they spotted three used orangutan nests and traces of food scraps. These findings indicated that orangutans had recently visited the transect and perhaps frequently saw orangutans passing through.
+After hours of walking, with three breaks, the trio finally reached the summit of Transect 39, at an altitude of 775 meters above sea level. However, their fatigue subsided once they set eyes on the breathtaking view from the top of the transect.
+Not wanting to get too caught up in the scenery, Patrick, Yunus, and Kris hurried back to Camp Nles Mamse, finally reaching it just before dark. They used boats to cover most of the distance to and from Transect 39 (12 kilometres from camp), which helped reduce travel time. Had they walked from camp, they would not have returned until long after dark.
+For those with an adventurous spirit, we hope our stories from the forest might inspire you or spark an interest in our work! So, watch out for more of our upcoming stories!
+Florence's Lingering Threat Mold
+THURSDAY, Sept. 20, 2018 (HealthDay News)  In the aftermath of Hurricane Florence, residents of the Carolinas are facing a new health threat mold.
+Moldrelated illnesses are a serious concern following severe flooding in North and South Carolina, say experts from the University of Connecticut School of Medicine.
+"Where there's dampness and water, there's mold," said Paula Schenck, of the division of occupational and environmental medicine.
+"Mold is an indicator of a whole soup of biological material. Unhealthy exposure to these bioaerosols is very possible after a flood from a hurricane and especially during cleanup efforts 24 to 48 hours after the storm," she said in a university news release.
+Exposure to mold primarily affects the lungs and the skin, Schenck said. How you react to mold depends on the severity of your exposure. Some people may be more susceptible to moldrelated illnesses than others, including children and those with a weakened immune system, asthma or another chronic illness.
+Warning signs of moldrelated health issues include
+ Nasal congestion and sneezing.
+ Hoarse voice and throat irritation.
+ Cough, wheezing, shortness of breath or chest tightness.
+ Flareup of asthma symptoms.
+ Respiratory symptoms.
+ Extreme tiredness.
+These symptoms may not develop right away, Schenck noted. She advised doctors to be extra vigilant about educating their patients about mold risk following a storm or natural disaster.
+During a poststorm cleanup, the UConn experts advised the following
+ Assume any areas exposed to water or flooding for more than 24 hours have mold even if it's not apparent.
+ While cleaning mold, use an "N95" respirator that has bands to hold the mask close to the face. Dust and surgical masks will not protect against mold and mold spores. People at high risk for moldrelated illnesses should not attempt to personally clean up following a flood. If water damage covers more than 100squarefeet, seek professional help with the cleanup.
+ Wear protective clothing. Cover the skin on the arms, hands, legs and feet while cleaning mold. Use long rubber gloves that extend to the middle of the forearm.
+ Wear unvented goggles during mold cleanup to protect the eyes.
+ Clean hard surfaces with soapy water. Avoid using bleach or other "fungicides" unless there is contamination from other flooded materials such as sewage. These harsh chemicals aren't more effective than soapy water and could cause or worsen lung irritation.
+ Don't attempt to clean soft materials and porous surfaces like fabrics and wall board. Throw away these items.
+The U.S. Environmental Protection Agency offers more on hurricane safety and preparedness.
+The news stories provided in Health News and our HealthE News Newsletter are a service of the nationally syndicated HealthDay news and information company. Stories refer to national trends and breaking health news, and are not necessarily indicative of or always supported by our facility and providers. This information is provided for informational and educational purposes only, and is not intended to be a substitute for medical advice, diagnosis, or treatment.
+A high index of suspicion is required for patients who show signs and symptoms of drug abuse or dependency. A complete evaluation of the patient is necessary, including physical examination and laboratory investigations. The clinical diagnosis of the patient is facilitated by the presence of specific signs  for example, nasal ulceration in cocaine abuse. Nevertheless, it is common for patients to have nonspecific complaints related to drug withdrawal. A wide range of signs and symptoms has been attributed to drug abuse, including constricted or dilated pupils, coarse voice, abnormal heart rate, enlarged liver, and collapsed veins.
+Diagnosis of drug abuse is largely dependent upon the identification of important clues from patient history. For example, these may include frequent road traffic accidents, workplace absences, episodes of domestic violence, chronic pain with no underlying cause, and a recent onset of seizures. The CAGE questionnaire is helpful in the diagnosis of alcohol dependence, and ideally, should be used to ensure the documentation of important information regarding alcohol dependency in a patient. It is also used as a screening tool to identify alcohol abuse and dependency. In terms of drug abuse, the Conjoint screening test is the tool of choice.
+Substance abuse, in general, can lead to neuromuscular symptoms such as tremors, seizures, and rigidity. Psychological symptoms include nervousness, anxiety, confusion, slurred speech, irritability, a staggering gait, and hallucinations. Psychological problems always arise with CNSacting drug abuse and confuse the clinical picture. The inspection of the body and clothes of patients can provide additional evidence regarding drug abuse, for example, an alcoholic odor in the persons breath, needle marks on their arms, residual cocaine around the names, and clothes that are stained with alcohol.
+Laboratory investigations should be suggested if a clinical suspicion arises. Laboratory tests do not have diagnostic accuracy in detecting drug abuse. A few tests can help in identifying patients with drug abuse and they can also give information about chronic intake of specific drugs. They are also of value for the detection of organ damage from chronic drug abuse. Blood samples can be taken to run drug toxicology screens and measure Mean Corpuscular Volume (MCV). The toxicology screens identify the pharmacological class of drugs.
+Drug metabolites are accurately detected in saliva and urine, therefore urine samples are useful in measuring hourly drug clearance. Positive findings in toxicology screens emphasize the need for confirmatory tests. Enzymemediated Immunoassay Technique (EMIT) is also used to confirm the presence of drugs in the bloodstream. In most cases, only metabolites of a particular drug are detected in significant quantities traces of parent drug or complete absence thereof can make interpretation difficult, as metabolites of two or more different drugs can be similar. False negatives are common and can be brought about by additional drugs taken for the sole purpose of elimination. These drugs act as a mask for the original drug being tested. Other tests, such as gammaglutamyl transpeptidase and carbohydratedeficient transferrin (CDT), have a role in identifying alcohol abuse.
+How to Propagate Snake Plant?
+Snake Plant, also known as Motherinlaw tongue, Snakes tongue, Devils tongue or Bowstring Hemp Plant is native to subtropical and tropical zones, but it also enjoys dry environments with less humidity.
+You can easily find this plant all across the world both indoors and outdoors, planted in pots or in the ground of gardens.
+Snake plants are not just easytogrow houseplants, they are also very easy to propagate. So in case you are a huge fan of this spikey plant, dont worry about buying more. Instead, learn how to propagate it properly.
+In this article, I am going to cover 3 propagation methods you can try. Also, I will take a closer look at the growing and fertilization needs of the Snake Plant.
+Rooting in Water
+One of the most convenient ways to propagate your Snake plant is by rooting in water. Heres the list of what you will need
+ Scissors or knife
+ Jar or a glass
+ Rooting hormone (not a must)
+Now lets see the steps you should follow
+ Use a sharp knife or scissors to cut off a leaf. Try to snip off the leaf as close to the soil as you can. In case you choose a larger leaf, you can cut it into sections and use each one to propagate your plant.
+ At this point, you can use some rooting hormone to help the propagating process, but this step is optional.
+ After you cut the leaf you want to propagate, place it in a glass or jar filled with water. Make sure that the water covers 25 of the leaf.
+ Keep in mind that the Snake plant is highly polar. This means that it will grow roots only if the edge of the leaf that was close to the soil is placed in the water.
+ Find a warm place for the jar with indirect sunlight and dont forget to change the water in the jar once a week.
+ Propagating your Snake plant by rooting in water takes about two months or longer. After you noticed that the roots have developed, you can plant the cutting in soil.
+Another, actually faster way to propagate your Snake plant is by cuttings. Heres what you will need
+ Knife or scissors
+ Potting mixture, preferably succulent soil
+ Optional rooting hormone
+Steps to follow
+ Similarly, to the previous method, cut off a leaf near the soil with a sharp knife or scissors. You can cut the leaf into little pieces and use them separately to propagate your plant.
+ In order to prevent bacteria from the soil getting into the freshly cut leaf, let the leaves out for a few days until they begin to callous over.
+ Keep in mind that the Snake plant is polar, so make sure you place the leaves correctly into the soil.
+ Before digging the cuttings in the soil, you can use some root hormone, but this step is optional.
+ Place the part of the cuttings that was closest to the bottom of the original plant into succulent soil or any welldrained mixture.
+ It takes about a month until the cuttings develop roots and another one until they sprout new growth.
+In case you dont want to wait months to have more Snake plants in your garden or house, you can also try propagating your plant by division.
+All you will need is the following
+ A sharp knife of a handsaw
+ Potting mixture
+Now lets see the steps of propagating your Snake plant by division
+ Gently take your plant out of its pot.
+ Once it is out, find the rhizomes, this is where you will cut the plant. In case your plant is small, dont aim for too many pieces, try to separate it in half instead. If your plant is larger, you can divide it into more pieces.
+ Cut your plant with a sharp knife or handsaw. Make sure each section has at least 3 rhizomes, a few roots and one healthy leaf.
+ Fill the pots with goodquality, welldrained potting mixture and repot each plant.
+ Water the freshly divided plants, then wait until the soil dries out before you water it again.
+ With this propagation method, it does not take a lot of time for you to be able to enjoy the beauty of your Snake plant. You can immediately place it in your house or garden where it gets a lot of warm, indirect sunlight.
+How Long Does it Take New Snake Plants to Grow?
+As you could see, depending on the method you choose, it can take a lot of time for your plant to develop after propagation.
+Snake plants are considered slow growing plants, sometimes they even need months to show growth.
+Usually it takes 68 weeks for Snake plants to grow roots. Depending on the environment they are placed in, it might take another 23 months to grow stronger, solid roots.
+My advice is to be patient and dont be discouraged by the lack of results during this time.
+Should I Fertilize Snake Plant Cuttings?
+Snake plants dont require fertilization, but you can use some fertilizer to help them grow faster. Use a basic houseplant fertilizer in the spring or summer and make sure to give a good soaking every 2 weeks and let the soil dry out between.
+How to Make Your Snake Plants Grow Faster?
+Undoubtedly, Snake plants grow slowly, but usually that doesnt mean that there is anything wrong with your plant you should worry about.
+However, sometimes you can try to do some things to boost the growing process and make your Snake plant grow faster.
+Here are some tricks and tips you should consider
+ To help the rooting process, you can dig the leaves into root hormones before placing them into water or soil.
+ You can change the environment of the plant. If your plant is not growing fast enough, it could be because of lack of light or low temperature.
+ You can also change the soil to give growth a boost.
+ Make sure you water your plant correctly. Underwatering can slow down the growing process.
+ As mentioned above, you can use fertilization to help your plant grow faster.
+The realm of semiconductor testing, the selection of the right tools is paramount for achieving accurate and reliable results. One such crucial tool is the probe card holder, an essential component in semiconductor testing setups. The various applications of Probe Card Holders delve into the key features that one must consider when selecting the right holder for specific testing applications.
+What is a Probe Card Holder?
+A probe card holder is a device designed to securely hold and interface with a probe card during semiconductor testing. The probe card itself is a critical component in testing semiconductor wafers, as it contains a set of probes or needles that make electrical contact with the pads on the semiconductor device under test (DUT).
+The probe card holder serves as a bridge between the probe card and the testing equipment, ensuring stability and precise alignment. It plays a pivotal role in maintaining the integrity of the testing process and safeguarding the delicate probes.
+Applications of Probe Card Holders
+Probe cardholders find applications across various industries, contributing to the reliability and efficiency of semiconductor testing. Lets explore some key applications
+1. Semiconductor Wafer Testing
+The primary application of probe card holders is in semiconductor wafer testing. During this process, a probe card holder secures the probe card in place while it makes contact with the semiconductor wafer. This is a critical step in identifying defects, ensuring the functionality of the semiconductor devices, and adhering to quality control standards.
+2. IC Package Testing
+In the testing of integrated circuit (IC) packages, probe card holders facilitate precise contact between the probe card and the IC package. This is crucial for verifying the functionality and performance of the packaged ICs before they are integrated into electronic devices.
+3. MEMS Testing
+Microelectromechanical systems (MEMS) require specialized testing due to their unique characteristics and applications. Probe card holders are used in MEMS testing setups to establish reliable electrical contact with these miniature devices, ensuring accurate performance assessments.
+4. RF and Microwave Testing
+For semiconductor devices operating in radio frequency (RF) and microwave ranges, precision in testing is paramount. Probe card holders designed for RF and microwave testing applications enable accurate measurements, ensuring that the devices meet the required specifications for frequency, power, and signal integrity.
+5. Power Device Testing
+Power semiconductor devices, such as MOSFETs and IGBTs, demand specialized testing setups. Probe card holders in power device testing applications provide the necessary stability and electrical contact for evaluating the performance and reliability of these highpower components.
+Key Features To Consider
+Selecting the right probe card holder for specific testing applications requires careful consideration of various features. Here are the key features to keep in mind
+ Material and Construction
+The material of the probe card holder significantly influences its durability and performance. Highquality materials, such as stainless steel or ceramic, are preferred for their resistance to corrosion and wear. The construction should also provide stability and precision in holding the probe card during testing.
+ Thermal Stability
+In testing applications where temperature variations are common, thermal stability becomes a critical factor. A probe card holder with excellent thermal stability ensures that the alignment and contact between the probe card and the DUT remain consistent, even in varying temperature conditions.
+Different testing applications may require specific probe card configurations. Its essential to choose a probe card holder that is compatible with the probe card design and size relevant to your testing needs. This includes considerations for the number of probes, pitch, and overall dimensions.
+ Precision Alignment
+Achieving precise alignment between the probe card and the semiconductor device under test is crucial for accurate testing results. Look for Probe Card Holders that offer finetuning capabilities for alignment, ensuring that the probes make accurate and reliable contact with the test points.
+ Electrical Performance
+The electrical performance of the probe card holder directly impacts the quality of the test measurements. Lowcontact resistance, high signal integrity, and minimal signal loss are essential characteristics to consider. A welldesigned probe card holder will provide consistent and reliable electrical contact throughout the testing process.
+ Easy Maintenance and Replacement
+As with any testing equipment, maintenance, and occasional replacement are inevitable. Opt for a probe card holder that facilitates easy maintenance, allowing for quick disassembly and reassembly. This feature ensures minimal downtime during testing processes.
+ Customization Options
+Every testing setup is unique, and customization may be necessary to meet specific requirements. Choose a probe card holder that offers customization options, such as interchangeable components or adjustable features, to adapt to the specific needs of your testing applications.
+The dynamic landscape of semiconductor testing, the role of a probe card holder cannot be overstated. The right choice of a Probe Cardholder is crucial for achieving precision, reliability, and efficiency in various testing applications, from semiconductor wafer testing to RF and microwave testing. By understanding the applications and key features discussed in this guide, you can make an informed decision when selecting a probe card holder for your specific testing needs. Whether you are working with MEMS, power devices, or IC packages, the right probe card holders will contribute to the success of your testing processes, ensuring the quality and functionality of semiconductor devices in diverse applications.
+Pottery has been a popular art form for thousands of years, and it is still widely practiced today. There are two main techniques used to create pottery hand building and throwing on a wheel. Both methods have their advantages and disadvantages, and whether it is better to hand build pottery or use the throwing wheel depends on the individual artist's preferences and goals.
+Hand building is the oldest technique of creating pottery, and it involves shaping clay by hand. This method is popular among artists who prefer to work slowly and methodically, creating each piece with care and precision. Hand building allows for a wide range of shapes and designs, and it is wellsuited for creating complex and intricate patterns.
+One of the advantages of hand building is that it does not require any specialized equipment or tools. All that is needed is clay, water, and a few basic tools, such as a rolling pin, a knife, and a paddle. This makes hand building a more accessible technique for artists who do not have access to a throwing wheel or who prefer to work with minimal equipment.
+Another advantage of hand building is that it allows the artist to create a unique and distinctive style. Because each piece is made by hand, no two pieces are exactly alike. This can be a selling point for artists who specialize in handmade, oneofakind pieces.
+However, hand building also has its disadvantages. One of the biggest drawbacks is that it is a timeconsuming process. It can take several hours or even days to create a single piece by hand, depending on the size and complexity of the design. This can make it difficult for artists who need to produce large quantities of pottery quickly.
+Throwing on a wheel, on the other hand, is a faster and more efficient method of creating pottery. This technique involves spinning a lump of clay on a rotating wheel while shaping it with the hands and various tools. Throwing allows for a more uniform shape and size, which can be important for artists who need to produce consistent pieces for sale or display.
+Another advantage of throwing on a wheel is that it allows the artist to create more intricate and delicate designs. The centrifugal force of the spinning wheel helps to shape the clay, allowing for finer details and smoother surfaces.
+However, throwing on a wheel also has its disadvantages. It requires specialized equipment, such as a throwing wheel and various tools, which can be expensive and take up a lot of space. It also requires more skill and practice than hand building, which can be daunting for beginners.
+In conclusion, whether it is better to hand build pottery or use the throwing wheel depends on the individual artist's preferences and goals. Hand building is a slower but more accessible technique that allows for a wider range of shapes and designs. Throwing on a wheel is a faster and more efficient technique that allows for more uniform shapes and intricate designs but requires more skill and specialized equipment. Ultimately, the choice of technique should be based on the artist's artistic vision, personal preferences, and resources available.
+Accuracy vs Precision Unveiling the Key Distinctions in Quality Management
+While evaluating the results after taking data measurements, you need to bear in mind two significant concepts that are accuracy and precision. Your data set might be close to an accepted value or it might be completely different from an anticipated result. So how can you point out if the measurements are close to the target or not? The main difference between accuracy and precision is that accuracy indicates how your measurement is close to a specific value, while precision shows how measurements are close to each other in a cluster. Here we will discuss the topic of accuracy vs precision with examples to show you how to use both concepts in project quality management.
+Table of Contents
+Accuracy and Precision
+Before to start, lets take a glance at the image below.
+Assume that you played dart with your friends. You and your friend hit the target shown in the images above. The image on the above left demonstrates a high degree of accuracy, but low precision. On the other hand, the image on the above right demonstrates high precision, but low accuracy.
+For better understanding, lets analyze the image below
+Your measurements are close to each other but they are far from the target value. This shows high precision but low accuracy.
+Your measurements are close to each other and they are on the target value. This shows high precision and high accuracy.
+Your measurements are far from each other and they are far from the target value. This shows low precision and low accuracy.
+Your measurements are far from each other but they are close to the target value. This shows low precision but high accuracy.
+What is Accuracy?
+The below figure shows that the closeness of a measurement to the true value is Accuracy while the closeness of agreement among a set of results shows precision.
+Accuracy means the values gathered from repeated measurements are close to the target. If all the measurements are accurate, this means that they are close to the target and they may be or may not be close to each other.
+For instance, you are working as a technician in a laboratory. You measured the weight of a given substance which was 4 kg. However, the known or actual weight of it must be 20 kg. You can easily say that your measurement is not accurate because is not close to the known value.
+What is Precision?
+Precision means the values gathered from repeated measurements are close to each other in a cluster. They have little scatter.
+If all the measurements very precise, it means that the measurements are close to each other and they may be or may not be close to the target. When the scatter is less, measurements have high precision.
+Considering the same example above, you measured the weight of a given substance three times and you listed the results
+ Measurement 1 3.9 kg
+ Measurement 2 4.4 kg
+ Measurement 3 5 kg
+You can easily say that your measurement is very precise. However, it is not accurate. Precision is not dependent on accuracy. You can be precise but not accurate vice versa you can be accurate but not precise.
+Accuracy and Precision Example
+Assume that you are a quality manager of a pipeline construction project. The warehouse received 1000 pipes from the supplier. According to the technical specifications, the thickness of each pipe must be 30 millimeters. In order to make an inspection, you randomly take the thickness measurements of five pipes.
+ First pipe 30.50 mm
+ Second pipe 30.55 mm
+ Third pipe 30.58 mm
+ Fourth pipe 30.45 mm
+ Fifth pipe 30.47 mm
+The inspection result shows that the measured values are precise but not accurate. Because all the measurements are close to each other but they are not close to the desired value of 30 millimeters.
+Below is another measurement for the same batch. You randomly take the thickness measurements of five pipes.
+ First pipe 29.90 mm
+ Second pipe 29.85 mm
+ Third pipe 30.10 mm
+ Fourth pipe 30.15 mm
+ Fifth pipe 29.87 mm
+This simple example shows that the measured values are accurate but not precise. Because all the measurements are close to the desired value of 30 millimeters but they are not close to each other.
+What is the Difference Between Accuracy and Precision?
+ Accurate measurements must be close to the target value. However precise measurements must be close to each other. They dont have to be close to the target value.
+ Accuracy is desired for quality purposes.
+ Precision is not dependent on accuracy. Therefore they may not be close to the target.
+ Many measurements are required to decide precision. However, you need fewer measurements to decide accuracy. In most cases, accuracy can be determined by one measurement.
+ Precision can be conceivable as the degree of reproducibility between repeated measurements.
+Accuracy and Precision are two different terms in project quality management and both of them refer to quality measurements. They are widely used in math, science, engineering, and project management to analyze data sets. Precision states that the measurements are consistent with very little variation and Accuracy states that the measurements are close to the desired value and they are correct. A Precise measurement does not mean accurate and an accurate measurement does not mean precise.
+In this article, we discuss the concept of accuracy vs precision in quality management and show how to calculate them with examples. We hope that all the points are clear and it will be useful to understand their importance for quality management purposes. If you would like to share your knowledge or add something, you can do so through the comments section below.
+Please note that these terms are also very important from a PMP Certification Exam point of view therefore, you must know the definition of these concepts and understand the difference between them.
+Since 2004 I work for ICT Management which provides worldwide quality management service. Passionate about new technologies, i have the privilege to implement many new systems and applications for different departements of my company. I have Six Sigma Green Belt.
+This Battle, a set piece attack by the Eight Army, ended with the rout of the GermanItalian forces and was the turning point of the war in North Africa.
+The Honour is borne on the Guidon of the 3rd Hussars.
+In the first phase of El Alamein, the 3rd Hussars helped break through Rommels defences but in the second phase, it was given the crucial task of forcing a gap through the remaining defences to enable the armoured reserves to breakthrough.
+At the time of the Battle of El Alamein, the main threat to tanks was the antitank gun.
+There is no better illustration of the struggle between the tank and an antitank gun than the attack of the 3rd Hussars on the Afrika Korps 88mm gun line at the Battle of El Alamein.
+Silhouetted against the rising sun the 3rd Hussars had many tanks hit but gradually the surviving tanks, using their high explosive 75mm shells and their machine guns got the upper hand over the unprotected German antitank guns.
+The courage and discipline of the Hussars in the face of horrendous odds were outstanding. On hearing the plan for the attack, their Commanding Officer, Sir Peter Farquhar Bt. exclaimed,
+This is just suicide for my Regiment! Montgomery replied, Its got to be done and, if necessary, I am prepared to accept 100 casualties in both personnel and tanks.
+After this Sir Peter remarked, There was, of course, no more to be said.
+In the event the Regiment fulfilled their task of breaking through but, in the whole battle, had 47 of their 51 tanks destroyed.
+Their casualties were horrific with 21 Officers and 90 Other Ranks killed, wounded or missing  over 80 of the tank crews.
+So devastated was the Regiment that it was unable to join the pursuit. General Freyburg granted The 3rd Hussars the honour of wearing the Fern Leaf on their vehicles because of their participation with the New Zealand Division during the battle.
+Leak testing plays an important role in todays manufacturing environment by ensuring the quality and performance of a product. A critical portion of the leak testing process is sealing the part for pressure or vacuum testing however, this step is given little attention. And all too often, this is the Achilles heel of a poorly conceived leak test process.
+Historically, manufacturers relied on wrenching and sealants or the use of juryrigged clamping fixtures to seal a thread, a tube or a cavity. This is an inefficient, timeconsuming process that may damage the product. While this damage may not be immediately evident, it could stress the part that may cause leaks down the road when it is put into customers use. Additionally, there are ergonomic concerns with wrenching or other manual clamping associated with this process.
+While there are many sealing misconceptions, this article will focus on three common misconceptions or methods that result with a poor sealing practice, identify the issues associated with the practice, and recommend a better method of sealing.
+Misconception 1 Sealing a threaded port or fitting. Ill just use pipe dope.
+For taper threads, commonly known as NPT or BSPT, using a thread sealant is the proper method to make the connection when installing the product for final use. These threads are common in the appliance, plumbing, compressed air and lowpressure hydraulics. The misconception is that using a common taper fitting and thread sealant (they call it pipe dope for a reason) is a good method (practice) to seal the port for a leak or pressure test. On the positive side, this is how these threads are designed to mate and create a leak tight connection. On the negative side, this creates three issues
+ To make the seal, the mating threads must be torqued tight, thus crushing the threads against one another. This condition deforms the thread, causing the thread to gauge differently than when it was newly machined. This creates a used part!
+ Thread sealant must be used as a lubricant to reduce galling and as a sealing agent to eliminate spiral leakage. Sealant removal and cleaning the threads is messy and time consuming.
+ Ergonomic concerns. Wrenching and torqueing a fitting tight in a production environment can cause severe operator stress leading to worker compensation.
+Alternatively, a better method is to apply one of several manual sealing devices on the market that are easily twisted or instantly connected to a threaded port or fitting with no wrench tightening or thread sealants. These products greatly improve the testing process, significantly reduce ergonomic issues associated with wrench tightening a fitting and leave the product in new condition. The features that make these products function include
+ The connectors are not torqued tight into the port, thus there is no thread damage.
+ The fittings use a feature called pressure assisted sealing, eliminating the need for messy thread sealants.
+ Since the connection requires no torqueing, it greatly reduces any ergonomic concerns.
+Misconception 2 Sealing a port. A pad seal will be just fine.
+Cast and plastic components can be a challenging sealing issue. Many times a pad style seal seems to be the best option. This method is simple and seemingly low cost to implement, and it generally can be done quickly. However, this option does create two main issues
+ Sizing the clamp fixture? Pad seals are a face seal, which require a high compressive force to be effective. This compressive force is a calculated guess, roughly based on sealing diameter, test pressure and an X factor tossed in to be extra safe. To ensure the guess is not wrong, manufacturers that use this method generally oversize the clamping fixture that holds the pad seal and tested component from separating during the test. This practice of oversizing fixture components adds size, weight and cost to the test fixture. Oversizing the clamp fixture also increases the wearing of the pad seal, thus requiring frequent maintenance.
+ High clamp force can deform or stress the component beyond its design criteria. It may mask leaks by forcing the defect closed.
+A better method is to utilize a sealing device that either compresses a dynamic seal to the OD or ID, but not the face. The key feature to these sealing devices is that they are pneumatically operated, which compresses the seal to a specific location independent of the clamping fixture. By sealing specifically to the ID or OD, this eliminates oversizing the clamping fixture. The fixture is sized to resist the separation force of the test.
+Misconception 3 The test medium (helium) really doesnt matter when selecting seal materials and sealing methods.
+Knowledge of seal materials and sealing methods is critical to obtain the expected results, which include passing good parts and identifying defective parts in a production environment. A common misconception is the notion that a specific material, like fluorocarbon, and high durometer, such as a 70 or 80 durometer, is best when using helium as a tracer leak gas. This may be trueusing this materialas a gasket and clamping flanges together to limit helium saturating the seal, but with typical production testing the sealing action is created and released many hundreds or thousands of times. The seal material needs to be flexible and conforming to achieve these cycle requirements.
+Testing time is rarely long enough to achieve saturation (for instance with 40 durometer neoprene). A critical concern is migration of helium around the seal material and the part being tested. Helium molecules are three times smaller than air or nitrogen, so it is important to reduce the migration of helium to an acceptable level by filling surface imperfections using a flexible seal and high compressive force onto the seal material. As a general statement, neoprene fills the bill very well however, critics will point out that neoprene is too porous.
+For example, neoprene can be compared to a sponge. Sponges are porous and effective at drawing in water, unless it is compressed (squeezed). A compressed sponge soaks up very little water. This is also true with sealing materials. Compressing neoprene reduces its ability to draw in helium, but it still has the flexibility to seal surface imperfections. If a part is cast, it may require a thicker 40 or 50 durometer neoprene. If a part is smooth tubing, it may only need a 60 or 70 durometer oring style seal. It is a better option to select sealing devices that are helium rated, as these devices are designed to apply a high compressive force. Like squeezing a sponge!
+Closing thoughts Selecting the Best Sealing Solution
+When selecting connection tooling and sealing methods, it is important to consider
+ Select connection tools that do not deform or damage the part.
+ Select connection tooling and methods that do not add undue compressive force to the part. Avoid the practice of sandwiching parts between two clamps.
+ Select connection tooling and methods in which the part is sealed in the same or similar manner as if it would when installed.
+ Select connection tooling that is durable, reliable and repeatable.
+ Select connection tooling that is easily maintained, and meets the production requirements.
+Using strong passwords is a critical part of keeping your network protected. For years we have been preaching the need to use complex passwords, along with the need to use different passwords for different accounts. As the technology of crackers (not the salted kind) improves, the need to be diligent about password security intensifies.
+To help you understand why strong passwords are so important, we want to showcase how hackers are gaining a technological edge. One common misconception is that hackers are sitting in a dark room with a laptop entering passwords one at a time. While this might be how we attempt to hack a friends Facebook account, real hackers have developed much more efficient ways of getting the job done.
+Hackers have special programs designed to use several passwords at once. Several passwords is actually an understatement, using their special hacking software the amount of words a hacker can try out is only limited by the amount of processing power running on their computer. Thanks to the everincreasing demands of graphic processors, the passwordcracking programs can run thousands of times faster than they were able to just a decade ago.
+Using a single graphics processor like a high performance AMD Radeon HD7970, along with an advanced passwordcracking algorithm, a hacker can try 8.2 billion password combinations per second. That is billion with a B, and second with an S. Keep in mind this is just one computer with one processor, the more resources a hacker has available, the more damage they can do. In fact, take a PC and equip it with two or more GPUs at just a few hundred dollars apiece, and the hacking speeds will increase by two to three times (which would be 16.424.6 billion passwords combinations per second for those of you at home keeping score).
+Hackers have also taken advantage of social networking tools and have formed their own online hacking communities. Using forums, hackers like to pool their knowledge and resources. One resource hackers like to share is lists of passwords successfully ripped off from data breaches. By sharing these lists, hackers gain an insight into what are the actual passwords that people use and then adjust their algorithms accordingly.
+The more that hackers network and collaborate, the more organized they become and the more damage they can do. With hackers, there is power in numbers it has been estimated that it only takes a few hackers working together to crack a list of 100,000 accounts with nominalaverage security in just a couple of hours.
+The technological and networking advancements of hackers sound like bad news for people of the Internet. Fortunately for you, hackers still primarily target accounts with weak security. Implementing best network security practices along with security solutions is still a great way to stay one step ahead of the hackers.
+As far as hackers have come over the past decade, we at Quikteks have also grown in our capabilities with our security solutions. Our best defense against hackers is our Unified Threat Management (UTM) tool that covers all of your network security bases, but even with a UTM, you will still want to educate yourself and your employees on best practices like how to make a complicated password that will ward off hackers. To learn more about UTM and best practices with password security, call Quikteks at PHONENUMBER.
+Following the announcement of the postponement of the 12th board exams and the cancellation of the 10th board exams, the CBSE board has decided to put more emphasis on competencybased education (CBE).
+The board is introducing changes in the 9th to 12th class examination and assessment practices for the session 202122. While overall marks and exam duration will remain the same, more competencybased questions that assess the application of concepts in reallife situations will be part of the examination.
+Last year, the board decided to implement a competencybased education system for the development of practical and life skills among students rather than just depending upon textbookbased education. The board informed about this on 14 May via a circular.
+What is CBE (CompetencyBased Education)?
+Competencybased learning (CBL) or Competencybased education (CBE) is an outcomebased approach to education to ensure proficiency in learning by students through demonstration of the knowledge, skills, values, and attitudes required for dealing with reallife situations at the age and gradeappropriate level.
+Changes for Class 11 and 12
+According to the revised pattern for Class 11 and 12, there will be 20 percent competencybased questions and 20 percent objectivetype questions. Competencybased questions can be in the form of MCQs (multiplechoice questions), casebased questions, sourcebased integrated questions, or any other form.
+As per the current scheme, 70 percent of the questions are of short long answer type, but now it will be reduced to 60 percent.
