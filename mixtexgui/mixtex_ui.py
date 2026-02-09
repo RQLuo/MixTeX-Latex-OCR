@@ -16,6 +16,7 @@ import os
 import csv
 import re
 import ctypes
+import requests
 
 if hasattr(sys, '_MEIPASS'):
     base_path = sys._MEIPASS
@@ -88,6 +89,7 @@ class MixTeXApp:
         self.menu.add_command(label="反馈标注", command=self.show_feedback_options)
         self.menu.add_command(label="最小化", command=self.minimize)
         self.menu.add_command(label="关于", command=self.show_about)
+        self.menu.add_command(label="拉取模型", command=self.download_model)
         self.menu.add_command(label="打赏", command=self.show_donate)
         self.menu.add_command(label="退出", command=self.quit)
         if sys.platform == 'darwin':  # macOS
@@ -98,9 +100,29 @@ class MixTeXApp:
 
         self.create_tray_icon()
 
-        self.model = self.load_model('onnx')
+        self.model_dir = os.path.join(os.path.dirname(__file__), "onnx")
+        self.required_model_files = [
+            "added_tokens.json",
+            "config.json",
+            "decoder_model.onnx",
+            "encoder_model.onnx",
+            "generation_config.json",
+            "merges.txt",
+            "preprocessor_config.json",
+            "special_tokens_map.json",
+            "tokenizer.json",
+            "tokenizer_config.json",
+            "vocab.json",
+        ]
+        self.model_ready = self.check_model_files()
+        self.model = None
+        if self.model_ready:
+            self.model = self.load_model(self.model_dir)
+        else:
+            self.log("找不到有效的模型文件, 请右键菜单拉取模型")
+            self.ocr_paused = True  # 暂停OCR功能
+
         if self.model is None:
-            self.log("模型加载失败，部分功能将不可用")
             self.ocr_paused = True  # 暂停OCR功能
         else:
             self.ocr_thread = threading.Thread(target=self.ocr_loop, daemon=True)
@@ -142,15 +164,18 @@ class MixTeXApp:
         return original
 
     def start_move(self, event):
-        self.x = event.x
-        self.y = event.y
+        # Use screen coords to avoid DPI scaling issues
+        self._drag_start_x = event.x_root
+        self._drag_start_y = event.y_root
+        self._window_start_x = self.root.winfo_x()
+        self._window_start_y = self.root.winfo_y()
 
     def do_move(self, event):
-        deltax = event.x - self.x
-        deltay = event.y - self.y
-        x = self.root.winfo_x() + deltax
-        y = self.root.winfo_y() + deltay
-        self.root.geometry(f"+{x}+{y}")
+        dx = event.x_root - self._drag_start_x
+        dy = event.y_root - self._drag_start_y
+        x = self._window_start_x + dx
+        y = self._window_start_y + dy
+        self.root.geometry(f"+{int(x)}+{int(y)}")
 
     def show_menu(self, event):
         self.menu.tk_popup(event.x_root, event.y_root)
@@ -242,54 +267,106 @@ class MixTeXApp:
         self.root.deiconify()
         self.tray_icon.visible = False
 
+    def check_model_files(self):
+        if not os.path.exists(self.model_dir):
+            return False
+        missing = []
+        for name in self.required_model_files:
+            if not os.path.exists(os.path.join(self.model_dir, name)):
+                missing.append(name)
+        if missing:
+            self.log("模型文件不完整: " + ", ".join(missing) + ", 请点击菜单拉取模型")
+            return False
+        return True
+
+    def _check_network(self):
+        urls = ["https://hf-mirror.com", "https://huggingface.co"]
+        last_err = None
+        for url in urls:
+            try:
+                requests.get(url, timeout=5)
+                return True
+            except Exception as e:
+                last_err = e
+        self.log(f"网络检查失败: {last_err}")
+        return False
+
+    def _download_hf_file(self, repo_id, filename, out_path, revision="main", token=None, use_mirror=True):
+        base_urls = []
+        if use_mirror:
+            base_urls.append("https://hf-mirror.com")
+        base_urls.append("https://huggingface.co")
+
+        headers = {}
+        if token:
+            headers["Authorization"] = f"Bearer {token}"
+
+        last_err = None
+        prefix = f"{filename}:"
+        for base in base_urls:
+            url = f"{base}/{repo_id}/resolve/{revision}/{filename}"
+            try:
+                self.log_progress(prefix, 0)
+                with requests.get(url, headers=headers, stream=True, allow_redirects=True, timeout=60) as r:
+                    r.raise_for_status()
+                    total = int(r.headers.get("Content-Length", 0))
+                    downloaded = 0
+                    last_percent = -1
+                    os.makedirs(os.path.dirname(out_path), exist_ok=True)
+                    with open(out_path, "wb") as f:
+                        for chunk in r.iter_content(chunk_size=1024 * 1024):
+                            if chunk:
+                                f.write(chunk)
+                                if total > 0:
+                                    downloaded += len(chunk)
+                                    percent = int(downloaded * 100 / total)
+                                    if percent != last_percent:
+                                        last_percent = percent
+                                        self.log_progress(prefix, percent)
+                self.log(f"Downloaded: {filename} from {base}")
+                self.log_progress(prefix, 100)
+                return
+            except Exception as e:
+                last_err = e
+
+        raise RuntimeError(f"Download failed: {filename}") from last_err
+
+    def _download_model_worker(self):
+        try:
+            if not self._check_network():
+                return
+            repo_id = "wzmmmm/mixtex-onnx"
+            for filename in self.required_model_files:
+                out_path = os.path.join(self.model_dir, filename)
+                self._download_hf_file(repo_id, filename, out_path, use_mirror=True)
+            self.log("模型下载完成")
+            self.model_ready = self.check_model_files()
+            if self.model_ready and self.model is None:
+                self.model = self.load_model(self.model_dir)
+                if self.model is not None:
+                    self.ocr_paused = False
+                    if not hasattr(self, "ocr_thread") or not self.ocr_thread.is_alive():
+                        self.ocr_thread = threading.Thread(target=self.ocr_loop, daemon=True)
+                        self.ocr_thread.start()
+        except Exception as e:
+            self.log(f"模型下载失败: {e}")
+
+    def download_model(self):
+        threading.Thread(target=self._download_model_worker, daemon=True).start()
+
     def load_model(self, path):
         try:
-            # 检查模型文件是否存在，优先查找外部onnx文件夹
-            model_paths = [
-                path,  # 原始路径（相对路径）
-                os.path.join(os.path.dirname(sys.executable), 'onnx'),  # exe同目录下的onnx文件夹
-                os.path.abspath("onnx")  # 当前运行目录下的onnx文件夹
-            ]
-            
-            # 寻找第一个有效的模型路径
-            valid_path = None
-            for model_path in model_paths:
-                if os.path.exists(model_path):
-                    # 检查必要文件是否都存在
-                    required_files = [
-                        os.path.join(model_path, "encoder_model.onnx"),
-                        os.path.join(model_path, "decoder_model_merged.onnx"),
-                        os.path.join(model_path, "tokenizer.json"),
-                        os.path.join(model_path, "vocab.json")
-                    ]
-                    
-                    all_files_exist = all(os.path.exists(file_path) for file_path in required_files)
-                    if all_files_exist:
-                        valid_path = model_path
-                        self.log(f"使用模型路径: {valid_path}")
-                        break
-            
-            if valid_path is None:
-                self.log("找不到有效的模型文件")
-                # 显示错误对话框
-                import ctypes
-                ctypes.windll.user32.MessageBoxW(0, 
-                    "找不到必要的模型文件\n请确保exe同目录下的onnx文件夹包含完整的模型文件。", 
-                    "模型加载错误", 0)
+            if not self.check_model_files():
+                self.log("\n找不到有效的模型文件。")
                 return None
-                    
-            tokenizer = RobertaTokenizer.from_pretrained(valid_path)
-            feature_extractor = ViTImageProcessor.from_pretrained(valid_path)
-            encoder_session = ort.InferenceSession(f"{valid_path}/encoder_model.onnx")
-            decoder_session = ort.InferenceSession(f"{valid_path}/decoder_model_merged.onnx")
+
+            tokenizer = RobertaTokenizer.from_pretrained(path)
+            feature_extractor = ViTImageProcessor.from_pretrained(path)
+            encoder_session = ort.InferenceSession(f"{path}/encoder_model.onnx")
+            decoder_session = ort.InferenceSession(f"{path}/decoder_model.onnx")
             self.log('\n===成功加载模型===\n')
             return (tokenizer, feature_extractor, encoder_session, decoder_session)
         except Exception as e:
-            self.log(f"模型加载失败: {e}")
-            import ctypes
-            ctypes.windll.user32.MessageBoxW(0, 
-                f"模型加载失败: {str(e)}\n请确保exe同目录下的onnx文件夹包含完整的模型文件。", 
-                "模型加载错误", 0)
             return None
 
     def show_feedback_options(self):
@@ -368,6 +445,8 @@ class MixTeXApp:
         return False
 
     def mixtex_inference(self, max_length, num_layers, hidden_size, num_attention_heads, batch_size):
+        if not self.model_ready or self.model is None:
+            return ""
         tokenizer, feature_extractor, encoder_session, decoder_session = self.model
         try:
             generated_text = ""
@@ -376,12 +455,21 @@ class MixTeXApp:
             encoder_outputs = encoder_session.run(None, {"pixel_values": inputs})[0]
             
          
-            num_layers = 6  # 修改为6层而不是3层
+            # Infer num_layers from decoder inputs (past_key_values.N.key/value)
+            input_names = [i.name for i in decoder_session.get_inputs()]
+            kv_layers = set()
+            for name in input_names:
+                if name.startswith("past_key_values."):
+                    parts = name.split(".")
+                    if len(parts) >= 3 and parts[1].isdigit():
+                        kv_layers.add(int(parts[1]))
+            if kv_layers:
+                num_layers = max(kv_layers) + 1
             
             decoder_inputs = {
                 "input_ids": tokenizer("<s>", return_tensors="np").input_ids.astype(np.int64),
                 "encoder_hidden_states": encoder_outputs,
-                "use_cache_branch": np.array([True], dtype=bool),
+                # NOTE: Some exported decoder_model.onnx do not include use_cache_branch input.
                 **{f"past_key_values.{i}.{t}": np.zeros((batch_size, num_attention_heads, 0, head_size), dtype=np.float32) 
                 for i in range(num_layers) for t in ["key", "value"]}
             }
@@ -440,6 +528,9 @@ class MixTeXApp:
 
     def ocr_loop(self):
         while True:
+            if not self.model_ready or self.model is None:
+                time.sleep(0.2)
+                continue
             if not self.ocr_paused and (self.tray_icon.visible or not self.is_only_parse_when_show):
                 try:
                     image = ImageGrab.grabclipboard()
@@ -471,6 +562,20 @@ class MixTeXApp:
 
     def log(self, message, end='\n'):
         self.text_box.insert(tk.END, message + end)
+        self.text_box.see(tk.END)
+
+    def log_progress(self, prefix, percent):
+        # Replace last progress line for the same prefix
+        percent = max(0, min(100, int(percent)))
+        message = f"{prefix} {percent}%/100%"
+        last_line_start = self.text_box.index("end-1c linestart")
+        last_line_end = self.text_box.index("end-1c lineend")
+        last_line = self.text_box.get(last_line_start, last_line_end)
+        if last_line.startswith(prefix):
+            self.text_box.delete(last_line_start, last_line_end)
+            self.text_box.insert(last_line_start, message)
+        else:
+            self.text_box.insert(tk.END, message + "\n")
         self.text_box.see(tk.END)
 
 if __name__ == '__main__':
