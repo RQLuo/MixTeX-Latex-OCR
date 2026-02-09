@@ -367,11 +367,6 @@ class MixTeXApp:
             self.log('\n===成功加载模型===\n')
             return (tokenizer, feature_extractor, encoder_session, decoder_session)
         except Exception as e:
-            self.log(f"模型加载失败: {e}")
-            import ctypes
-            ctypes.windll.user32.MessageBoxW(0, 
-                f"模型加载失败: {str(e)}\n请确保exe同目录下的onnx文件夹包含完整的模型文件。", 
-                "模型加载错误", 0)
             return None
 
     def show_feedback_options(self):
