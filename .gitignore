@@ -6,6 +6,11 @@ __pycache__/
 # C extensions
 *.so
 
+# useless files
+mixtexgui/data/
+requirements copy.txt
+
+
 # Distribution / packaging
 .Python
 build/
